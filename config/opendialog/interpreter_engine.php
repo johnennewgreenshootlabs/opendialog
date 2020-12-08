@@ -13,12 +13,12 @@ return [
 
     'dialogflow_config' => [
         'project_ids' => [
-            'agent_1' => env('DIALOGFLOW_AGENT_1_PROJECT_ID'),
-            'agent_2' => env('DIALOGFLOW_AGENT_2_PROJECT_ID'),
+            'agent_1' => env('DIALOGFLOW_AGENT_1_ID'),
+            'agent_2' => env('DIALOGFLOW_AGENT_2_ID'),
         ],
         'credentials' => [
-            env('DIALOGFLOW_AGENT_1_PROJECT_ID') => env('DIALOGFLOW_AGENT_1_CREDENTIALS'),
-            env('DIALOGFLOW_AGENT_2_PROJECT_ID') => env('DIALOGFLOW_AGENT_2_CREDENTIALS'),
+            env('DIALOGFLOW_AGENT_1_ID') => env('DIALOGFLOW_AGENT_1_CREDENTIALS'),
+            env('DIALOGFLOW_AGENT_2_ID') => env('DIALOGFLOW_AGENT_2_CREDENTIALS'),
             '_fallback' => env('DIALOGFLOW_FALLBACK_CREDENTIALS'),
         ],
         'languageCodes' => [
